@@ -8,7 +8,7 @@ function App() {
   const [messages, setMessages] =  useState([])
 
   useEffect(() => {
-      axios.get('https://whatsapp-mern-clone.onrender.com/messages/sync')
+      axios.get('/messages/sync')
         .then(response => {
           setMessages(response.data);
         })
