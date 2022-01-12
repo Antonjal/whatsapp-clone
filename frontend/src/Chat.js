@@ -19,6 +19,8 @@ function Chat({ messages }) {
             timestamp: "Just now!",
             received: false
         });
+        
+        setInput("");
 };
     return (
         <div className="chat">
