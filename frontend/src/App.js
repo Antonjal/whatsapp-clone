@@ -1,6 +1,6 @@
 import './App.css';
-import Chat from "./Chat";
-import Sidebar from './Sidebar.js'; /* This imports the Sidebar component in the components folder*/
+import Chat from "./Chat"; /* This imports the Chat component in the components folder */
+import Sidebar from './Sidebar.js'; /* This imports the Sidebar component in the components folder */
 import Pusher from 'pusher-js';
 import axios from "./axios";
 import React, {useEffect, useState} from "react";
@@ -37,6 +37,7 @@ function App() {
       <div className="app__body">
       {/* The Sidebar component */}
       <Sidebar />
+      {/* The Chat component */}
       <Chat messages={messages}/>
       </div>
     </div>
@@ -44,3 +45,4 @@ function App() {
 }
 
 export default App;
+
