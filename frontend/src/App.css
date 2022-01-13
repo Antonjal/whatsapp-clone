@@ -7,6 +7,7 @@
 .app__body{
   display: flex;
   background-color: #ededed;
+  /* 'margin-top', 'height' and 'width' pull the Sidebar & Chat components up to the top left side */
   margin-top: -50px;
   height: 90vh;
   width: 90vw;
