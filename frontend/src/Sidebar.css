@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 10vw;
+    min-width: 10vw; /* This prevents the icons from getting too cramped up when changing the size of the browser's window */
 }
 
 .sidebar__headerRight > .MuiSvgIcon-root {
