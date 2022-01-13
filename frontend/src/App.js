@@ -35,6 +35,7 @@ function App() {
   return (
     <div className="app">
       <div className="app__body">
+      {/* The Sidebar component */}
       <Sidebar />
       <Chat messages={messages}/>
       </div>
