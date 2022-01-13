@@ -20,7 +20,7 @@
 
 .sidebar__headerRight > .MuiSvgIcon-root {
     margin-right: 2vw;
-    font-size: 24px !important;
+    font-size: 24px !important; /* MaterialUI icons are basically fonts and this changes their size */
 }
 
 .sidebar__search{
