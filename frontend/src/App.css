@@ -1,7 +1,7 @@
 .app {
   display: grid;
-  place-items: center;
-  height: 100vh;
+  place-items: center; /* Centres all the elements within it including the app__body horizontally*/
+  height: 100vh; /* Centres all the elements within it including the app__body vertically*/
   background-color: #dadbd3;
 }
 .app__body{
