@@ -1,6 +1,6 @@
 import './App.css';
 import Chat from "./Chat";
-import Sidebar from './Sidebar.js';
+import Sidebar from './Sidebar.js'; /* This imports the Sidebar component in the components folder*/
 import Pusher from 'pusher-js';
 import axios from "./axios";
 import React, {useEffect, useState} from "react";
