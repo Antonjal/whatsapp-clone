@@ -26,9 +26,12 @@ function Sidebar() {
                    </IconButton>
                 </div>
             </div>
+            {/* Search bar in the sidebar */}
             <div className="sidebar__search">
                 <div className="sidebar__searchContainer">
+                    {/* This materialUI component renders a magnifier icon */}
                     <SearchIcon />
+                    {/* Search input with a default placeholder text */}
                     <input placeholder="Search or start new chat" type="text" />
                 </div>
             </div>
