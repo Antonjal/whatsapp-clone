@@ -47,7 +47,7 @@
 
 .sidebar__searchContainer > input {
     border: none;
-    outline-width: 0;
+    outline-width: 0; /* removes the default blue line */
     margin-left: 10px;
 }
 
