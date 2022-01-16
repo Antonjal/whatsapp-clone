@@ -12,7 +12,7 @@
 }
 
 .chat__headerInfo{
-    flex: 1;
+    flex: 1; /* Pushes the entire component out */
     padding-left: 20px;
 }
 
