@@ -35,6 +35,7 @@ function Sidebar() {
                     <input placeholder="Search or start new chat" type="text" />
                 </div>
             </div>
+            {/* Chat conversations in form of components in the left sidebar */}
             <div className="sidebar__chats">
                 <SidebarChat />
                 <SidebarChat />
