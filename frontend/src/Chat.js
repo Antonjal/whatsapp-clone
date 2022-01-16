@@ -54,7 +54,8 @@ function Chat({ messages }) {
                     </span>
                         {message.message}
                     <span className="chat__timeStamp">
-                        {message.timestamp}
+                        {/* message.timestamp */}
+                        {newDate().toUTCString()}
                     </span>
                 </p>
                 ))}
